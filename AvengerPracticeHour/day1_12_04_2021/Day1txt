@@ -1,0 +1,37 @@
+
+        1. Type Casting
+        2. String Practices
+
+        1. Type Casting:
+            a) implicit casting
+                - Done by compiler
+                - Smaller to bigger datatype
+                - No loss data
+            b) explicit casting
+                - Done by developer
+                - Bigger to smaller
+                - We can lose data
+
+
+            String Methods:
+
+                charAt();
+                length();
+                replace();
+                replaceFirst();
+                trim();
+                substring();
+                lastIndexOf();
+                contains();
+                equals();
+                repeat();
+                endsWith();
+                isEmpty();
+                isBlank();
+                toUpperCase();
+                toLowerCase();
+
+                equals() vs ==
+
+
+
