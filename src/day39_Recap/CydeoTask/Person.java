@@ -11,6 +11,10 @@ public class Person {
     }
 
     public void setName(String name) {
+        if (name==null||name.isEmpty()||name.isBlank()){
+            System.out.println("Incorrect name: "+name);
+            System.exit(1);
+        }
         this.name = name;
     }
 
