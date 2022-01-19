@@ -1,4 +1,4 @@
-package practice_01_12_2021;
+package practice_01_12_2022;
 
 public class CustomMain {
 

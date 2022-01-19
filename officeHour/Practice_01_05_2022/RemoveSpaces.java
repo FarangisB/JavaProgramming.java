@@ -1,7 +1,4 @@
-package Practice_01_05_2021;
-
-import java.util.Arrays;
-import java.util.Locale;
+package Practice_01_05_2022;
 
 public class RemoveSpaces {
 
