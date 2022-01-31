@@ -14,4 +14,15 @@ public final class Driver extends Employee{
     public void sleep() {
         System.out.println(getName()+" sleeps 6 hours a day");
     }
+
+    public String toString() {
+        return "Driver{" +
+                "name='" + getName() + '\'' +
+                ", age=" + getAge() +
+                ", gender=" + getGender() +
+                ", id=" + getId() +
+                ", jobTitle='" + getJobTitle() + '\'' +
+                ", salary=" + getSalary() +
+                "}";
+    }
 }

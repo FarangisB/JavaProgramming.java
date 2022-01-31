@@ -14,4 +14,15 @@ public final class Teacher extends Employee{
     public void sleep() {
         System.out.println(getName()+" sleeps 8 hours a day.");
     }
+
+    public String toString() {
+        return "Teacher{" +
+                "name='" + getName() + '\'' +
+                ", age=" + getAge() +
+                ", gender=" + getGender() +
+                ", id=" + getId() +
+                ", jobTitle='" + getJobTitle() + '\'' +
+                ", salary=" + getSalary() +
+                "}";
+    }
 }
