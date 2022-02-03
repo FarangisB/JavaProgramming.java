@@ -64,7 +64,14 @@ public class Animal {
         System.out.println(name+" is drinking water.");
     }
 
-
-
-
+    public String toString() {
+        return getClass().getSimpleName()+"{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", gender=" + gender +
+                ", color='" + color + '\'' +
+                ", size='" + size + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }

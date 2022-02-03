@@ -21,7 +21,7 @@ public class MultiDimensionalArray2 {
   //3rd [] is for index for each element:
         //                     0 1 2    0 1 2    0 1 2       0  1  2     0  1  2     0  1  2
 
-        System.out.println(Arrays.deepToString(arr3D));
+        System.out.println(Arrays.deepToString(arr2D));
 
         // {{10,20,30}, {40,50,60}, {70,80,90}}
         System.out.println(Arrays.deepToString(arr3D[1]));
