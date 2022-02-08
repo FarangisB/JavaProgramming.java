@@ -12,9 +12,9 @@ public class DriverObjects {
 
         chrome.close();
         chrome.executeScript("moving");
-        edge.findElement("By name");
+        edge.findElement("name");
         edge.getBrowserName();
-        fireFox.findElements("By Id");
+        fireFox.findElements("Id");
         fireFox.getTitle();
         opera.takeScreenShot();
         opera.quit();
