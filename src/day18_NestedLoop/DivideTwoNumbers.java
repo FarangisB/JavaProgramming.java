@@ -4,9 +4,9 @@ public class DivideTwoNumbers {
 
     public static void main(String[] args) {
 
-        int a = 30; // a = 30-7= 23-7= 16-7= 9-7=2 --> a=2
+        int a = 7; // a = 30-7= 23-7= 16-7= 9-7=2 --> a=2
                         //  +1     +1   +1     +1
-        int b = 7;
+        int b = 5;
 
         int count = 0; // count = 1+1+1+1 = 4
 

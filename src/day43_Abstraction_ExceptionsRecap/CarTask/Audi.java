@@ -2,8 +2,8 @@ package day43_Abstraction_ExceptionsRecap.CarTask;
 
 public final class Audi extends Car{
 
-    public Audi(String model, String color, int year, double price) {
-        super("Audi", model, color, year, price);
+    public Audi(String model, int year, double price, String color, int miles) {
+        super("Audi", model, year, price, color, miles);
     }
 
     public void start() {
