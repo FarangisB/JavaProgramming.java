@@ -50,7 +50,7 @@ public class ListOfMapPractice1 {
         scrumTeam5.put("Tamara","SDET");
         scrumTeam5.put("Adnan","QA");
 
-    // 1.1 Create a a data structure that can contain all the given maps above
+    // 1.1 Create a data structure that can contain all the given maps above
 
         List< Map <String, String>  > scrumTeams  = new ArrayList<>();
         scrumTeams.add(scrumTeam1);
